@@ -1,5 +1,5 @@
 {
-  "homepage": "",
+  "homepage": "http://zaidloni.github.io/birthday-reminder",
   "name": "first",
   "private": true,
   "version": "0.0.0",
@@ -8,8 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "a",
-    "deploy": ""
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
